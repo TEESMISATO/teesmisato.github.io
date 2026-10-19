@@ -1,0 +1,10 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.teesmisato.teesone.mobile",
+      "sha256_cert_fingerprints": ["5C:4D:78:47:F3:C5:7A:F0:6B:92:F8:42:AD:5D:2F:06:05:DB:A7:8C:29:BD:4E:0D:CA:E0:2A:C4:14:F2:85:30"]
+    }
+  }
+]

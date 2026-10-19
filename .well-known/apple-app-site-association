@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "D4C8H7DKJ5.io.github.teesmisato.teesone.mobile",
+        "appIDs": ["D4C8H7DKJ5.io.github.teesmisato.teesone.mobile"],
+        "paths": ["/t/*"],
+        "components": [{ "/": "/t/*", "comment": "TEES ONE attendance card" }]
+      }
+    ]
+  }
+}

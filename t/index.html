@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ja"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>TEES ONE</title>
+<style>body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans KR",sans-serif;background:#F2F5F3;color:#22322A;display:flex;min-height:100vh;align-items:center;justify-content:center;text-align:center;padding:20px}</style>
+</head><body>
+<div id="m">…</div>
+<script>
+/* TEES ONE 출퇴근 카드 — 앱이 깔린 폰은 이 주소를 앱이 받아 열고(이 페이지는 안 열림),
+   앱이 없는 폰은 여기서 사내 서버의 출퇴근 쪽으로 넘긴다. 카드의 비밀 코드는 # 뒤에 있어 이 서버(GitHub)로 보내지지 않는다. */
+(function () {
+  var h = (location.hash || "").replace(/^#/, "");
+  var p = new URLSearchParams(h);
+  var k = p.get("k") || "", t = p.get("t") || "work";
+  if (!k) { document.getElementById("m").textContent = "TEES ONE"; return; }
+  location.replace("https://tees.tail97bb58.ts.net/staff/punch?k=" + encodeURIComponent(k) + "&t=" + encodeURIComponent(t));
+})();
+</script>
+</body></html>

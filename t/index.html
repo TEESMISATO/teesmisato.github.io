@@ -16,7 +16,7 @@
   if (!k) { document.getElementById("m").textContent = "TEES ONE"; return; }
   /* SERVERLIST (2026-10-21): 서버 주소는 /app/server.json 의 servers(앞에서부터 닿는 첫 곳). 못 읽으면 기본값. */
   var go = function (base) { location.replace(base.replace(/\/$/, "") + "/staff/punch?k=" + encodeURIComponent(k) + "&t=" + encodeURIComponent(t)); };
-  var fallback = ["https://tees.tail97bb58.ts.net:10000", "https://tees.tail97bb58.ts.net"];
+  var fallback = ["https://tees.tail97bb58.ts.net"];
   var probe = function (list, i) {
     if (i >= list.length) { go(list[0]); return; }
     var done = false, timer = setTimeout(function () { if (!done) { done = true; probe(list, i + 1); } }, 3000);

@@ -3,7 +3,6 @@
   "note": "TEES ONE 서버 주소 — 앞에서부터 닿는 첫 곳을 쓴다(앱 · 카드 넘김 페이지)",
   "servers": [
     "https://one.teesmisato.com",
-    "https://tees.tail97bb58.ts.net:10000",
     "https://tees.tail97bb58.ts.net"
   ]
 }

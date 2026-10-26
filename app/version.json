@@ -1,6 +1,6 @@
 {
-  "android": 9,
+  "android": 10,
   "apk": "https://teesmisato.github.io/app/TEES_ONE.apk",
-  "ios": 16,
+  "ios": 19,
   "testflight": "https://testflight.apple.com/join/2cTe321Q"
 }
